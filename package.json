@@ -1,0 +1,37 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "start": "node_modules/.bin/flow && ./node_modules/.bin/eslint *.js && node index.js",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "flow": "node_modules/.bin/flow",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/henryJOKULA/chatbot-aymeric-henry.git"
+  },
+  "author": "aymeric Henry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/henryJOKULA/chatbot-aymeric-henry/issues"
+  },
+  "homepage": "https://github.com/henryJOKULA/chatbot-aymeric-henry#readme",
+  "dependencies": {
+    "eslint-config-airbnb-standard": "^1.6.6",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1",
+    "flow-bin": "^0.75.0"
+  }
+}
