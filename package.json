@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
+    "override": "node index.js",
     "start": "node_modules/.bin/flow && ./node_modules/.bin/eslint *.js && node index.js",
     "lint": "./node_modules/.bin/eslint *.js",
     "flow": "node_modules/.bin/flow",
@@ -21,6 +22,8 @@
   },
   "homepage": "https://github.com/henryJOKULA/chatbot-aymeric-henry#readme",
   "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
     "eslint-config-airbnb-standard": "^1.6.6",
     "express": "^4.16.3"
   },
