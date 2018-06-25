@@ -5,7 +5,7 @@ const express = require('express');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const weatherApiKey = 'gIEGRkXIwctvG6vAZeuinDIi9JHz9w4w';
+const weatherApiKey = 'GWKKH6TUHPlDk5RDFb8W3aU2Y6h6n5Jt';
 
 app.use(bodyParser.json());
 
