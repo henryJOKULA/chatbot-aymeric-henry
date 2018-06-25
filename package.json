@@ -4,7 +4,7 @@
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "start": " ./node_modules/.bin/eslint index.js && node_modules/.bin/flow && babel index.js -d  && node index.js",
+    "start": " ./node_modules/.bin/eslint index.js && node_modules/.bin/flow && babel index.js -d lib/ && node lib/index.js",
     "test": "nyc mocha --exit"
   },
   "repository": {
